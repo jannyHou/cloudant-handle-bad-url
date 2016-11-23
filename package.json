@@ -1,0 +1,12 @@
+{
+  "name": "cloudant-url-error-demo",
+  "version": "1.0.0",
+  "description": "A reproduction of the unhandled URL parsing error!",
+  "dependencies": {
+    "cloudant": "^1.6.2"
+  },
+  "scripts": {
+    "start": "node test.js"
+  },
+  "license": "MIT"
+}
