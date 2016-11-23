@@ -1,7 +1,7 @@
 var Cloudant = require('cloudant');
 var inspect = require('util').inspect;
-var goodUrl = 'https://USERNAME:PASSWORD@example.cloudant.com';
 
+var goodUrl = 'https://MYUSERNAME:MYPASSWORD@MYACCOUNT.cloudant.com';
 Cloudant(goodUrl, function(err, cloudant) {
 	console.log('good url test results:');
 	// Error is caught properly with well formatted url
